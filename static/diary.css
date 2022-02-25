@@ -1,0 +1,81 @@
+.rc-mainbox{
+    overflow: auto;
+}
+.mainbox-top{
+    position: relative;
+    display: flex;
+    height: 60px;
+    width: 99%;
+    border: 1px solid lightgrey;
+    font-family: 'ROKAFSlabSerifBold';
+    font-size: 15px;
+    border-radius: 3px;
+}
+.left{
+    flex: 1;
+    text-align: center;
+    padding: 15px 8px;
+}
+.right{
+    flex: 7;
+    word-spacing: 5px;
+    padding: 15px 8px;
+    word-spacing: 8px;
+}
+.right span{
+    color: red;
+}
+
+.mainbox-bottom{
+    font-family: 'KyoboHand';
+    overflow: auto;
+    margin-top: 30px;
+    width: 100%;
+}
+.contents{
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+.date{
+    padding: 30px 20px 20px;
+    color: #1384a7;
+    font-family: 'ROKAFSlabSerifBold';
+}
+.text{
+    text-align: center;
+    padding: 10px 20px 30px;
+}
+.color1{
+    color:blue;
+    font-size: 20px;
+}
+.color2{
+    color:red;
+    font-size: 22px;
+}
+.secret-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.secret-button button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: 'KyoboHand';
+    font-size: 17px;
+}
+.secret-button button:hover{
+    background-color: rgb(67, 216, 191);
+    transition: 3s ease all;
+}
+.secret-contents{
+    display: none;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+

@@ -1,0 +1,22 @@
+.rc-mainbox{
+    overflow: auto;
+    font-family: 'KyoboHand'
+}
+.title{
+    background-color: rgb(198, 253, 235);
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 5px 10px;
+    margin: 0 5px 20px;
+}
+.photo{
+    text-align: center;
+}
+.photo img{
+    width: 90%;
+}
+.contents{
+    width: 90%;
+    font-size: 18px;
+    margin: 10px 5% 100px;
+}

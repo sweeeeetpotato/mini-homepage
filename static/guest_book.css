@@ -1,0 +1,34 @@
+.rc-mainbox{
+    overflow: auto;
+    font-family: 'KyoboHand';
+}
+.rc-mainbox>div{
+    margin-bottom: 80px;
+}
+.title{
+    background-color: rgb(221, 221, 221);
+    font-weight: bolder;
+    word-spacing: 6px;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+}
+.title span{
+    color: rgb(0, 0, 207);
+}
+.contents-box{
+    display: flex;
+    height: 180px;
+}
+.profile{
+    flex: 1;
+    background-image: url("./image/background.jpg");  
+    background-size: 180px;
+}
+.contents{
+    flex: 2;
+    align-self: center;
+    padding: 25px;
+}
+.icon{
+    color: rgb(223, 0, 19);
+}
